@@ -1,0 +1,71 @@
+/* cards */
+
+.cards-first-row {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-link {
+    display: block;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    opacity: 0.9;
+}
+
+.card-title-wrapper {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #a6a6a6;
+    color: #ffffff;
+
+    overflow: hidden;
+    white-space: nowrap;
+    /* текст не переносится */
+}
+/* цвет фона в карточках */
+.card-title-wrapper-sand-color {
+    background-color: #c1b19b;
+}
+.card-title-wrapper-blue-color {
+    background-color: #66b0be;
+}
+.card-title-wrapper-brown-color {
+    background-color: #876f56;
+}
+.card-title-wrapper-green-color {
+    background-color: #27695e;
+}
+.card-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+
+    color: #ffffff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.cards-second-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards-second-row-column > * + * {
+    margin-top: 30px;
+}
+.card {
+    width: 570px;
+}
+
+.card.bigger {
+    width: 670px;
+}
+.card.small {
+    width: 470px;
+}

@@ -1,0 +1,204 @@
+@media (max-width: 899px) {
+    .container {
+        /* width: 600px; */
+        width: 100%;
+    }
+    .header-top {
+        width: 100%;
+    }
+    .header-top .logo {
+        font-size: 30px;
+    }
+    .header-content {
+        width: 100%;
+    }
+    .header-title {
+        font-size: 42px;
+    }
+    .header-content p {
+        font-size: 20px;
+    }
+    /* main */
+    .main {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .inner-page {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .main-header {
+        font-size: 42px;
+    }
+    .card {
+        width: 570px;
+    }
+    .article-page-nav {
+        width: 569px;
+    }
+    .article-page-nav-title {
+        margin-bottom: 20px;
+    }
+    .row-article-page {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .article-page-article h1 {
+        font-size: 42px;
+    }
+    .article-page-article {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+    .article-page-article img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    /* contacts */
+    .inner-page.media-contacts {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .contacts-header {
+        margin-bottom: 30px;
+    }
+    .contact-list li {
+        margin-bottom: 22px;
+    }
+    .contact-info {
+        display: inline-block;
+        width: 570px;
+    }
+    .contact-block:first-child {
+        margin-bottom: 40px;
+    }
+    /* iframe {
+        width: 570px;
+        height: 310px;
+    } */
+    .contacts-header {
+        margin-bottom: 30px;
+    }
+    .contact-block {
+        margin-right: 0;
+    }
+    .contact-block-body {
+        width: 570px;
+    }
+    .form {
+        padding: 30px;
+    }
+    .form-group:last-of-type {
+        margin-bottom: 20px;
+    }
+
+    /*// contacts */
+    .card-title-wrapper {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .cards-first-row {
+        margin-bottom: 30px;;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards-first-row a:first-child {
+        margin-bottom: 30px;
+    }
+    .cards-second-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* .cards-second-row-column > * + * {
+        margin-top: 0;
+    } */
+    .cards-second-row-column {
+        margin-bottom: 30px;
+    }
+    .cards-second-row-column:last-child {
+        margin-bottom: 0;
+    }
+    .card.bigger {
+        width: 570px;
+        /* flex-shrink: 0; */
+    }
+    .card.small {
+        width: 570px;
+        /* flex-shrink: 0; */
+    }
+    .card img {
+        width: 570px;
+        height: 240px;
+        flex-shrink: 0;
+        object-fit: cover;
+    }
+    .card.bigger img {
+        width: 570px;
+        height: 210px;
+        flex-shrink: 0;
+        object-fit: cover;
+    }
+    .card.small img {
+        width: 570px;
+        height: 210px;
+        flex-shrink: 0;
+        object-fit: cover;
+    }
+    .main-row {
+        flex-direction: row-reverse;
+        margin-bottom: 60px;
+    }
+
+    .main-img {
+        width: 170px;
+        margin-right: 30px;
+        flex-shrink: 0;
+
+    }
+    .main-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /*корректно масштабируется */
+    }
+    .main-content {
+        width: auto;
+    }
+    .main-header {
+        font-size: 42px;
+    }
+    .main-content-text {
+        font-size: 16px;
+    }
+    .inner-page.media {
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+    
+    .button {
+        height: 46px;
+        font-size: 18px;
+        padding-left: 30px;
+        padding-right: 30px;
+        line-height: 46px;
+    }
+    /* footer */
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .footer-row {
+        flex-wrap: wrap;
+    }
+    .footer-copyright {
+        order: 1;
+        width: auto;
+    }
+    .footer-widgets-wrapper {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .footer-widgets-wrapper > * {
+        /* width: 270px; */
+        width: calc(50% - 15px);
+    }
+}
